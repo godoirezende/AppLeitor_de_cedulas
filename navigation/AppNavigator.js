@@ -12,8 +12,8 @@ const AppNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Bem Vindo" alt="Bem Vindo" component={BemVindo} />
-        <Stack.Screen name="Camera" alt="Câmera" component={Camera} />
+        <Stack.Screen name="Ldc" alt="Bem Vindo" component={BemVindo} />
+        <Stack.Screen name="Camera" alt="Camera" component={Camera} />
       </Stack.Navigator>
     </NavigationContainer>
   );
